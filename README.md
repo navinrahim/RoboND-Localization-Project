@@ -44,5 +44,5 @@ And then run the following in *separate* terminals -
 ``` bash
 $ roslaunch udacity_bot udacity_bot
 $ roslaunch udacity_bot amcl
-$ rosrun udacity_bot navigation goal
+$ rosrun udacity_bot navigation_goal
 ```
