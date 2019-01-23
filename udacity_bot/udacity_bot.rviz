@@ -6,9 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /RobotModel1
         - /Camera1/Visibility1
-        - /Pose1
       Splitter Ratio: 0.5
     Tree Height: 502
   - Class: rviz/Selection
@@ -90,6 +88,11 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+        top_base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
       Name: RobotModel
       Robot Description: robot_description
       TF Prefix: ""
@@ -131,7 +134,7 @@ Visualization Manager:
       Enabled: true
       Invert Rainbow: false
       Max Color: 255; 255; 255
-      Max Intensity: 999999
+      Max Intensity: 1.78352569e-35
       Min Color: 0; 0; 0
       Min Intensity: 0
       Name: LaserScan
@@ -235,7 +238,7 @@ Visualization Manager:
       Value: true
     - Alpha: 0.699999988
       Class: rviz/Map
-      Color Scheme: map
+      Color Scheme: costmap
       Draw Behind: false
       Enabled: true
       Name: Map
@@ -268,16 +271,16 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 8.71504402
+      Distance: 36.750309
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 1.63542628
-        Y: -2.68667579
-        Z: -3.32262635
+        X: 2.4706645
+        Y: 0.483619183
+        Z: -3.33898091
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
