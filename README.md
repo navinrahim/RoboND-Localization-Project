@@ -42,7 +42,21 @@ $ source devel/setup.bash
 And then run the following in *separate* terminals -
 
 ``` bash
-$ roslaunch udacity_bot udacity_bot
-$ roslaunch udacity_bot amcl
+$ roslaunch udacity_bot udacity_world.launch
+$ roslaunch udacity_bot amcl.launch
 $ rosrun udacity_bot navigation_goal
 ```
+
+For running the Navbot, run the following - 
+
+``` bash
+$ roslaunch udacity_bot udacity_world_navbot.launch
+$ roslaunch udacity_bot amcl_navbot.launch
+$ rosrun udacity_bot navigation_goal
+```
+
+## Writeup
+The writeup of this project can be found [here](Robot_Localization_Project.pdf).
+
+## Output Video
+The output of both the bots localizing itself and reching the destination can be found [here](https://youtu.be/O_-1PNpb-ZA).
