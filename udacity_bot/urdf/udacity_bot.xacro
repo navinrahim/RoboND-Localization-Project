@@ -49,7 +49,6 @@
       <geometry>
         <box size=".4 .2 .1"/>
       </geometry>
-        <material name="blue"/>    
     </visual>
 
 
